@@ -1,0 +1,52 @@
+﻿@font-face {
+	font-family:'wealth';
+	src: url('KozMinP0.otf');
+}
+@font-face {
+	font-family:'wealth_fat';
+	src: url('KozMinP4.otf');
+}
+body {
+	margin:0 auto;
+	font-family: wealth,微軟正黑體;
+}
+.header {
+	text-align:center;
+}
+.main_fluid {
+	margin-top:20px;
+	background: url('../images/images/wealth_.jpg') center center no-repeat;
+	background-size:cover;
+}
+.main {
+	padding:25px 8px;
+}
+.main p {
+	color:#fff;
+	text-align:center;
+	font-size:0.9rem;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	margin:0;
+}
+.benefit {
+	text-align:center;
+	margin-top:30px;
+
+}
+.benefit h4 {
+	margin:0;
+}
+.line {
+	display:none;
+}
+.block  {
+	background-color:#DDD488;
+	color:#302F2F;
+}
+.block p {
+	padding:5px 3px;
+}
+.footer {
+	margin-top:60px;
+	background-color:#B7AE63;
+}
