@@ -28,27 +28,45 @@ body {
 	.logo {
 		position:absolute;
 		margin-top:20px;
+		width:330px;
 	}
-	.title_name {
-		position:absolute;
-		margin-left:276px;
-		margin-top:70px;
-	}
-	.title_name span:nth-child(1) {
-		font-size:1.2rem;
+	.logo a img{
+		max-width:100%;
+		height:auto;
 	}
 
+	.car1{
+		position:relative;
+		margin-left:880px;
+		margin-top:56px;
+		display:inline-block;	
+		
+		}
+	.img-shadow {
+		position:absolute;
+		display:none;
+		z-index:1;
+		top: 0;
+        left: 0;
+	}
+	.car1:hover .img-shadow {
+		display:inline-block;
+	}
+	.mobile-on {
+		display:none;
+	}
 	.tel {
 		position:absolute;
-		margin-left:680px;
-		margin-top:55px;
+		margin-left:600px;
+		margin-top:65px;
 		color:#32302F;
-		font-size:18px;
+		font-size:1.3rem;
 	}
 	.tel span i {
-	font-size:1.2rem;
-	padding-right:10px;
+		font-size:1.2rem;
+		padding-right:10px;
 	}
+	
 /*main*/
 
 .main_fluid {
@@ -121,4 +139,12 @@ body {
 .footer_info {
 	padding:20px 0;
 }
-
+.cor span a{
+	text-decoration:none;
+	color:#49473E;
+}
+.cor span a:hover{
+	text-decoration:none;
+	color:#1C1818;
+	transition:color 0.3s;
+}

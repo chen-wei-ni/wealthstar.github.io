@@ -13,6 +13,15 @@ body {
 .header {
 	text-align:center;
 }
+.pc-on{
+		display:none;
+	}
+.img-shadow {
+
+		display:none;
+
+	}
+
 .main_fluid {
 	margin-top:20px;
 	background: url('../images/images/wealth_.jpg') center center no-repeat;
@@ -42,6 +51,8 @@ body {
 .block  {
 	background-color:#DDD488;
 	color:#302F2F;
+	margin:0 15px;
+	margin:0 15px;
 }
 .block p {
 	padding:5px 3px;
@@ -49,4 +60,10 @@ body {
 .footer {
 	margin-top:60px;
 	background-color:#B7AE63;
+	text-align:center;
+}
+.cor span a{
+	text-decoration:none;
+	color:#49473E;
+	font-size:0.9rem;
 }
